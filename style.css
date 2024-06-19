@@ -218,5 +218,51 @@ section.portifolio .flex{
 .overlay:hover{
     opacity: 1;
 }
+/*ESTILO FORMULARIO*/
+
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+.interface form input, form textarea{
+    background-color: rgba(46, 46, 46, 0.484);
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+}
+form .btn-form{
+    margin-top: 20px;
+}
+form .btn-form input{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: .2s;
+}
+form .btn-form input:hover{
+    box-shadow: 0px 0px 8px yellow;
+    transform: scale(1.05);
+
+}
+
+
+
 
 
